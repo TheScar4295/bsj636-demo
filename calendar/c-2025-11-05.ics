@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TaleTellers Ltd//Lodge Buchan St John No. 636//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Committee meeting\, Lodge Buchan St John No. 636
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Concept demo by TaleTellers Ltd with sample data. Not the offi
+ cial calendar of Lodge Buchan St John No. 636.
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c-2025-11-05@bsj636
+DTSTAMP:20261105T124645Z
+DTSTART;TZID=Europe/London:20251105T190000
+DTEND;TZID=Europe/London:20251105T210000
+SUMMARY:Committee meeting\, Buchan St John No. 636
+LOCATION:Broxburn Bowling Club\, West Burnside\, Station Road\, Broxburn EH
+ 52 5RG
+DESCRIPTION:Committee meeting. Buchan St John No. 636.\nCommittee Meetings 
+ @ 7.00 pm.\nAddress to be confirmed. The lodge gives the hall’s address 
+ as West Burnside\, Station Road\, the same address as Broxburn Bowling Clu
+ b. The postcode is still to be confirmed: the Province’s website gives E
+ H52 5RG for West Burnside\; the lodge’s current website gives Long Byres
+ \, Broxburn EH52 5TF.\nCommittee members.\nConcept demo with sample data: 
+ check with the lodge before travelling.
+URL:https://thescar4295.github.io/bsj636-demo/events/#c-2025-11-05
+STATUS:CONFIRMED
+CATEGORIES:committee
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

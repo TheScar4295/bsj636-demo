@@ -1,0 +1,3 @@
+# Concept demo by TaleTellers Ltd. Not the official website of Lodge Buchan St John No. 636.
+User-agent: *
+Disallow: /
